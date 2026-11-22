@@ -1,0 +1,109 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: "Noto Sans Myanmar";
+  src: url("/fonts/NotoSansMyanmar-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Noto Sans Myanmar";
+  src: url("/fonts/NotoSansMyanmar-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --nm-bg: #F3F4F2;
+  --nm-surface: #FFFFFF;
+  --nm-surface-variant: #EAECE8;
+  --nm-text: #1F2A2E;
+  --nm-muted: #8A9498;
+  --nm-outline: #E3E6E2;
+  --nm-pastel-teal: #A8CED6;
+  --nm-pastel-sage: #C6DBA8;
+  --nm-pastel-yellow: #E9E48C;
+  --nm-pastel-peach: #EBA77C;
+  --nm-radius-card: 28px;
+  --nm-radius-pill: 9999px;
+}
+
+.dark {
+  --nm-bg: #14181A;
+  --nm-surface: #1F2528;
+  --nm-surface-variant: #283034;
+  --nm-text: #EFF3F4;
+  --nm-muted: #8A9498;
+  --nm-outline: #2E373C;
+  --nm-pastel-teal: #6B9BA6;
+  --nm-pastel-sage: #88A566;
+  --nm-pastel-yellow: #B5AE55;
+  --nm-pastel-peach: #C27B52;
+}
+
+@layer base {
+  body {
+    font-family: "Inter", "Noto Sans Myanmar", system-ui, -apple-system, sans-serif;
+    background-color: var(--nm-bg);
+    color: var(--nm-text);
+  }
+
+  code, pre, .font-mono {
+    font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.nm-card {
+  background-color: var(--nm-surface);
+  border-radius: var(--nm-radius-card);
+  box-shadow: none;
+}
+
+.nm-pill {
+  border-radius: var(--nm-radius-pill);
+  box-shadow: none;
+}
+
+.nm-big-number {
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.nm-label {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: var(--nm-muted);
+}
+
+@keyframes sheetUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInItem {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

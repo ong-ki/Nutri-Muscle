@@ -1,0 +1,4 @@
+-keep class com.nutrimuscle.app.data.local.seed.** { *; }
+-keep class com.nutrimuscle.app.data.backup.** { *; }
+-keepattributes *Annotation*, InnerClasses
+-dontnote kotlinx.serialization.SerializationKt

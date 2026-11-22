@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NutriMuscle</string>
+    <string name="nav_today">ယနေ့</string>
+    <string name="nav_history">မှတ်တမ်း</string>
+    <string name="nav_profile">ကိုယ်ရေး</string>
+
+    <string name="estimates_only">ခန့်မှန်းချက်သာ</string>
+
+    <!-- Today -->
+    <string name="calories_label">ကယ်လိုရီ</string>
+    <string name="protein_label">ပရိုတင်း</string>
+    <string name="carbs_label">ကာဗို</string>
+    <string name="fat_label">အဆီ</string>
+    <string name="muscle_chip">ကြွက်သား %1$d</string>
+    <string name="muscle_score_title">ကြွက်သားရမှတ်</string>
+    <string name="muscle_score_protein_part">ပရိုတင်း</string>
+    <string name="muscle_score_calorie_part">ကယ်လိုရီ</string>
+    <string name="muscle_score_spread_part">ခွဲဝေမှု</string>
+    <string name="suggestions_title">အကြံပြု</string>
+    <string name="meal_breakfast">မနက်စာ</string>
+    <string name="meal_lunch">နေ့လယ်</string>
+    <string name="meal_dinner">ညစာ</string>
+    <string name="meal_snack">သရေစာ</string>
+    <string name="edit_action">ပြင်</string>
+    <string name="delete_action">ဖျက်</string>
+
+    <!-- Fixed-rule tips -->
+    <string name="tip_protein_needed">ပရိုတင်း %1$d g လိုသေး</string>
+    <string name="tip_protein_hit">ပရိုတင်း ပြည့်မီပြီ</string>
+    <string name="tip_calories_over">ကယ်လိုရီ %1$d ပိုနေ</string>
+    <string name="tip_calories_under">ကယ်လိုရီ %1$d လိုနေ</string>
+    <string name="tip_calories_on_track">ကယ်လိုရီ ကိုက်ညီ</string>
+    <string name="tip_spread_good">%1$d ကြိမ်ခွဲစားပြီး</string>
+    <string name="tip_spread_improve">၃ ကြိမ်ခွဲ ပရိုတင်းစားပါ</string>
+    <string name="tip_fiber_low">အမျှင်ဓာတ်နည်း (%1$d g)</string>
+
+    <!-- Add Food Sheet -->
+    <string name="food_input_placeholder">ဘာစားခဲ့လဲ?</string>
+    <string name="add_button_total">ထည့်မည် · %1$s kcal</string>
+    <string name="update_button_total">ပြင်မည် · %1$s kcal</string>
+    <string name="add_button_empty">ထည့်မည်</string>
+    <string name="custom_food_title">ကိုယ်ပိုင်အစား</string>
+    <string name="edit_food_title">အစားပြင်</string>
+    <string name="recent_tab">မကြာသေးမီ</string>
+    <string name="favorites_tab">အကြိုက်ဆုံး</string>
+    <string name="custom_name_en">အမည်</string>
+    <string name="custom_name_mm">မြန်မာအမည်</string>
+    <string name="custom_serving_g">အလေးချိန် (g/ml)</string>
+    <string name="custom_calories">kcal</string>
+    <string name="custom_protein">P (g)</string>
+    <string name="custom_carbs">C (g)</string>
+    <string name="custom_fat">F (g)</string>
+    <string name="custom_sugar">သကြား (g)</string>
+    <string name="save_action">သိမ်း</string>
+    <string name="cancel_action">ပယ်ဖျက်</string>
+    <string name="replace_match_button">ပြောင်း</string>
+    <string name="search_hint">ရှာပါ…</string>
+
+    <!-- History -->
+    <string name="range_7_days">၇ ရက်</string>
+    <string name="range_30_days">၃၀ ရက်</string>
+    <string name="no_meals_for_day">မှတ်တမ်းမရှိ</string>
+
+    <!-- Profile -->
+    <string name="section_body">ကိုယ်ခန္ဓာ</string>
+    <string name="section_goal">ပန်းတိုင်</string>
+    <string name="section_app">အက်ပ်</string>
+    <string name="weight_label">အလေးချိန် (kg)</string>
+    <string name="height_label">အရပ် (cm)</string>
+    <string name="age_label">အသက်</string>
+    <string name="gender_male">ကျား</string>
+    <string name="gender_female">မ</string>
+    <string name="activity_sedentary">နည်း</string>
+    <string name="activity_light">အနည်းငယ်</string>
+    <string name="activity_moderate">အသင့်</string>
+    <string name="activity_active">တက်ကြွ</string>
+    <string name="activity_very_active">အလွန်တက်ကြွ</string>
+    <string name="goal_muscle">ကြွက်သား</string>
+    <string name="goal_fat_loss">အဆီချ</string>
+    <string name="goal_maintain">ထိန်း</string>
+    <string name="lang_en">EN</string>
+    <string name="lang_mm">မြန်မာ</string>
+    <string name="theme_system">စနစ်</string>
+    <string name="theme_light">အလင်း</string>
+    <string name="theme_dark">အမှောင်</string>
+    <string name="backup_export">ထုတ်</string>
+    <string name="backup_import">သွင်း</string>
+    <string name="backup_exported_msg">သိမ်းပြီး</string>
+    <string name="backup_imported_msg">သွင်းပြီး</string>
+    <string name="backup_error_msg">မအောင်မြင်</string>
+    <string name="bmi_underweight">နည်း</string>
+    <string name="bmi_normal">ပုံမှန်</string>
+    <string name="bmi_overweight">ပို</string>
+    <string name="bmi_obese">များ</string>
+    <string name="err_age_range">၁၀–၁၀၀</string>
+    <string name="err_weight_range">၂၀–၃၀၀ kg</string>
+    <string name="err_height_range">၁၀၀–၂၅၀ cm</string>
+</resources>

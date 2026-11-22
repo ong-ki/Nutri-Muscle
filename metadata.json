@@ -1,0 +1,6 @@
+{
+  "name": "NutriMuscle",
+  "description": "Offline nutrition, macro, and muscle-building tracker for Myanmar and global foods with complete Kotlin Jetpack Compose Android Gradle project.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

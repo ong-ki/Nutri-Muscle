@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NutriMuscle</string>
+    <string name="nav_today">Today</string>
+    <string name="nav_history">History</string>
+    <string name="nav_profile">Profile</string>
+
+    <string name="estimates_only">Estimates only</string>
+
+    <!-- Today -->
+    <string name="calories_label">Cal</string>
+    <string name="protein_label">Protein</string>
+    <string name="carbs_label">Carbs</string>
+    <string name="fat_label">Fat</string>
+    <string name="muscle_chip">Muscle %1$d</string>
+    <string name="muscle_score_title">Muscle Score</string>
+    <string name="muscle_score_protein_part">Protein</string>
+    <string name="muscle_score_calorie_part">Calories</string>
+    <string name="muscle_score_spread_part">Spread</string>
+    <string name="suggestions_title">Suggestions</string>
+    <string name="meal_breakfast">Breakfast</string>
+    <string name="meal_lunch">Lunch</string>
+    <string name="meal_dinner">Dinner</string>
+    <string name="meal_snack">Snack</string>
+    <string name="edit_action">Edit</string>
+    <string name="delete_action">Delete</string>
+
+    <!-- Fixed-rule tips (inside Muscle sheet only) -->
+    <string name="tip_protein_needed">%1$d g more protein needed</string>
+    <string name="tip_protein_hit">Protein target reached</string>
+    <string name="tip_calories_over">%1$d kcal over target</string>
+    <string name="tip_calories_under">%1$d kcal under target</string>
+    <string name="tip_calories_on_track">Calories on target</string>
+    <string name="tip_spread_good">Protein spread across %1$d meals</string>
+    <string name="tip_spread_improve">Aim for 20g+ protein in 3 meals</string>
+    <string name="tip_fiber_low">Low fiber (%1$d g)</string>
+
+    <!-- Add Food Sheet -->
+    <string name="food_input_placeholder">ဘာစားခဲ့လဲ?</string>
+    <string name="add_button_total">Add · %1$s kcal</string>
+    <string name="update_button_total">Update · %1$s kcal</string>
+    <string name="add_button_empty">Add</string>
+    <string name="custom_food_title">Custom food</string>
+    <string name="edit_food_title">Edit food</string>
+    <string name="recent_tab">Recent</string>
+    <string name="favorites_tab">Favorites</string>
+    <string name="custom_name_en">Name</string>
+    <string name="custom_name_mm">Burmese name</string>
+    <string name="custom_serving_g">Serving (g/ml)</string>
+    <string name="custom_calories">kcal</string>
+    <string name="custom_protein">P (g)</string>
+    <string name="custom_carbs">C (g)</string>
+    <string name="custom_fat">F (g)</string>
+    <string name="custom_sugar">Sugar (g)</string>
+    <string name="save_action">Save</string>
+    <string name="cancel_action">Cancel</string>
+    <string name="replace_match_button">Replace</string>
+    <string name="search_hint">Search…</string>
+
+    <!-- History -->
+    <string name="range_7_days">7D</string>
+    <string name="range_30_days">30D</string>
+    <string name="no_meals_for_day">No meals</string>
+
+    <!-- Profile -->
+    <string name="section_body">Body</string>
+    <string name="section_goal">Goal</string>
+    <string name="section_app">App</string>
+    <string name="weight_label">Weight (kg)</string>
+    <string name="height_label">Height (cm)</string>
+    <string name="age_label">Age</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="activity_sedentary">Sedentary</string>
+    <string name="activity_light">Light</string>
+    <string name="activity_moderate">Moderate</string>
+    <string name="activity_active">Active</string>
+    <string name="activity_very_active">Very Active</string>
+    <string name="goal_muscle">Muscle</string>
+    <string name="goal_fat_loss">Cut</string>
+    <string name="goal_maintain">Maintain</string>
+    <string name="lang_en">EN</string>
+    <string name="lang_mm">မြန်မာ</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="backup_export">Export</string>
+    <string name="backup_import">Import</string>
+    <string name="backup_exported_msg">Exported</string>
+    <string name="backup_imported_msg">Imported</string>
+    <string name="backup_error_msg">Failed</string>
+    <string name="bmi_underweight">Under</string>
+    <string name="bmi_normal">Normal</string>
+    <string name="bmi_overweight">Over</string>
+    <string name="bmi_obese">Obese</string>
+    <string name="err_age_range">10–100</string>
+    <string name="err_weight_range">20–300 kg</string>
+    <string name="err_height_range">100–250 cm</string>
+</resources>
